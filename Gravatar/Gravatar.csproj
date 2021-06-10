@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <PackageId>GravatarPN</PackageId>
+    <PackageId>GravatarPN1</PackageId>
     <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Pedro Neto</Authors>
