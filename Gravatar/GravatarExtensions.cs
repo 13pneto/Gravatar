@@ -6,7 +6,7 @@ namespace Gravatar
 {
     public static class GravatarExtensions
     {
-        public static string ToGravatar(this string email)
+        public static string ToGravatar(this string email, int? size = 100)
         {
             if (string.IsNullOrEmpty(email))
                 return string.Empty;
@@ -19,7 +19,7 @@ namespace Gravatar
             foreach (var t in hashBytes)
                 sb.Append(t.ToString("X2"));
 
-            return $"https://www.gravatar.com/avatar/{sb.ToString().ToLower()}";
+            return $"https://www.gravatar.com/avatar/{sb.ToString().ToLower()}?s={size}";
         }
     }
 }
