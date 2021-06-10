@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Gravatar</PackageId>
+    <Version>1.0.1</Version>
+    <License>MIT</License>
+    <Authors>Pedro Neto</Authors>
+    <Company>Pedro Neto C.</Company>
+    <PackageDescription>Extensions for Gravatar</PackageDescription>
+    <Description>Extensions for Gravatar</Description>
+    <RepositoryUrl>https://github.com/13pneto/Gravatar</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/13pneto/Gravatar</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Gravatar</PackageTags>
+    <Title>Gravatar Extensions</Title>
+    <Summary>Extensions for Gravatar</Summary>
+  </PropertyGroup>
+
+</Project>
